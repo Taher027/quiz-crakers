@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/skills.png'
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,6 +11,8 @@ const Header = () => {
                     to='/'
                     className='inline-flex items-center'
                 >
+                    <img className='w-6 font-bold' src={logo} alt="" />
+
                     <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
                         Test-Your_Skill
                     </span>
