@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const DisplayQuizData = ({ singleQuizdata }) => {
+    console.log(singleQuizdata);
     const { id, logo, name, total } = singleQuizdata;
 
     return (
