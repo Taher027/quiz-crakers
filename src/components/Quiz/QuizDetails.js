@@ -21,7 +21,7 @@ const QuizDetails = ({ SingleQuestion }) => {
                     <div> <input onClick={()=>correctAnswer === options[0] ? check('Your ans is right') : check('Your ans is wrong')} className='mx-6' type="radio" name='option' />{options[0]} </div>
                     <div> <input onClick={() => correctAnswer === options[1] ? check('Your ans is right') : check('Your ans is wrong')} className='mx-6' type="radio" name='option' />{options[1]} </div>
                     <div> <input onClick={() => correctAnswer === options[2] ? check('Your ans is right') : check('Your ans is wrong')} className='mx-6' type="radio" name='option' />{options[2]} </div>
-                    <div> <input onClick={() => correctAnswer === options[3] ? check('Your ans is right') : check('Your ans is wrong')} className='mx-6' type="radio" name='option' />{options[3]} </div>
+                    <div> <input onClick={()=>correctAnswer === options[3] ? check('Your ans is right') : check('Your ans is wrong')} className='mx-6' type="radio" name='option' />{options[3]} </div>
                 </div>
                 <ToastContainer />
             </div>

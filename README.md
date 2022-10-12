@@ -6,26 +6,7 @@
 # In this application people can answer some questions and if they select wrong option, they can see the right option.
 # git repo link about this project are "https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Taher027";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#live site link: https://candid-figolla-2361e0.netlify.app/home
 
 
 
