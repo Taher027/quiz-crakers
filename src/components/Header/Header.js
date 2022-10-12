@@ -11,7 +11,7 @@ const Header = () => {
                     to='/'
                     className='inline-flex items-center'
                 >
-                    <img className='w-6 font-bold' src={logo} alt="" />
+                    <img className='w-8 font-bold' src={logo} alt="" />
 
                     <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
                         Test-Your_Skill
@@ -24,14 +24,6 @@ const Header = () => {
                             className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
                             Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to='/quiz'
-                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                        >
-                            Quiz
                         </Link>
                     </li>
                     <li>
@@ -104,14 +96,7 @@ const Header = () => {
                                 <nav>
                                     <ul className='space-y-4'>
 
-                                        <li>
-                                            <Link
-                                                to='/quiz'
-                                                className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                            >
-                                                Quiz
-                                            </Link>
-                                        </li>
+                                        
                                         <li>
                                             <Link
                                                 to='/statistic'

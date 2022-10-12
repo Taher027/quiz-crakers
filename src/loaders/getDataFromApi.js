@@ -3,3 +3,6 @@ export const getQuizDataFromApi = async () => {
     const quizData = await getQuizData.json()
     return { quizData }
 }
+export const singleQuizdataById = async () => {
+    const singleQuizdata = await fetch ('')
+}

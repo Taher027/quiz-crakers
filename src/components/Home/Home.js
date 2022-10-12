@@ -9,14 +9,14 @@ const Home = () => {
     const quizDataLoad = quizData.data;
     return (
         <div className="w-4/5 mx-auto pb-8">
-            <div className='mb-6 lg:flex'>
+            <div className='mb-6 lg:flex bg-gray-100 p-4'>
                 <div className="lg:w-9/12 p-12">
-                    <h4 className='text-3xl'>Hi, do you justify your knowledge on programming language? let try ! <br>
+                    <h4 className='text-3xl text-left'>Hi, do you justify your knowledge on programming language? let try ! <br>
                     </br>
                         You find out your week point and keep update ur self.</h4>
                 </div>
                 <div className='lg:w-3/12 '>
-                    <img className='w-72 h-100' src={quizImg} alt="" />
+                    <img className='w-72 h-100 mx-auto' src={quizImg} alt="" />
 
                 </div>
             </div>
