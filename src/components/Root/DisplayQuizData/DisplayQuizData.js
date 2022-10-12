@@ -8,7 +8,7 @@ const DisplayQuizData = ({ singleQuizdata }) => {
             <img className='w-52' src={logo} alt="" />
             <h3 className='mt-1'>{name}</h3>
             <p className=''>Quiz: {total}</p>
-            <button className='px-3 py-1 rounded mt-2 bg-blue-500 '>Start Quiz</button>
+            <button  className='px-3 py-1 rounded mt-2 bg-blue-500 '>Start Quiz</button>
 
         </div>
     );

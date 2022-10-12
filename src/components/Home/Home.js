@@ -11,7 +11,7 @@ const Home = () => {
         <div className="w-4/5 mx-auto pb-8">
             <div className='mb-6 lg:flex bg-gray-100 p-4'>
                 <div className="lg:w-9/12 p-12">
-                    <h4 className='text-3xl text-left'>Hi, do you justify your knowledge on programming language? let try ! <br>
+                    <h4 className='text-3xl text-left'>Hi, do you want to justify your knowledge on programming language? let's try ! <br>
                     </br>
                         You find out your week point and keep update ur self.</h4>
                 </div>
