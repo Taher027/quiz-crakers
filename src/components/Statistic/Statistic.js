@@ -1,11 +1,12 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, } from 'recharts';
 import { useLoaderData } from 'react-router-dom';
 
 const Statistic = () => {
+
+    console.log('hello')
     const { quizData } = useLoaderData();
     const data = quizData.data;
-    console.log(data)
     return (
         <div className='container mx-auto '>
 
